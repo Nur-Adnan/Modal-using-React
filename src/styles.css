@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto", sans-serif; /* Change the font for a modern look */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Primary button style */
+.modal-button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-button:hover {
+  background-color: #0056b3;
+}
+
+/* Secondary button style */
+.close-button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.close-button:hover {
+  background-color: #c82333;
+}
+
+/* Modal container */
+.modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Modal content */
+.modal {
+  padding: 1.5rem; /* Increase padding for better spacing */
+  background: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly increase shadow */
+  max-width: 400px; /* Increase maximum width for larger screens */
+  text-align: center;
+}
+
+/* Dialog modal */
+.dialog {
+  padding: 1.5rem; /* Increase padding for better spacing */
+  background: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Slightly increase shadow */
+  max-width: 400px; /* Increase maximum width for larger screens */
+  text-align: center;
+}
